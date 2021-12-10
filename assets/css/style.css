@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+body {
+  font-family: Montserrat, sans serif;
+  background: #55a8b9;
+  color: rgb(24, 21, 21);
+  font-weight: bold;
+}
+
+body header a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body .structure-pages {
+  padding-top: 4rem;
+}
+
+body h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+body h2 {
+  font-family: Montserrat, sans serif;
+}
+
+body #confirmation {
+}
+
+body h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 9rem;
+}
+
+body h3 a {
+  text-decoration: none;
+  font-size: 2.2rem;
+}
+
+body h4 {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 2.2rem;
+}
+
+body button {
+  -webkit-transform: translateY(4rem);
+  transform: translateY(4rem);
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(5%, #007dc1),
+    to(#0061a7)
+  );
+  background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  background-color: #007dc1;
+  border-radius: 20px;
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+}
+
+body button :hover {
+  color: black;
+  background-color: white;
+}
+
+body button :active {
+  position: relative;
+  top: 1px;
+}
+
+body table {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 1rem;
+}
+
+body table a {
+  font-size: 15px;
+}
+
+body table th {
+  font-weight: bold;
+  background-color: #0c3865;
+  color: rgb(206, 206, 206);
+}
+
+body table tr {
+  line-height: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+body #welcomeBottomMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+body #welcomeBottomMenu a {
+  text-decoration: none;
+}
+
+body form {
+  height: 10rem;
+  width: 30rem;
+  font-family: "Montserrat", "sans serif";
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 230px;
+}
+
+body .text-box {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+body #checkbox {
+  padding: auto;
+}
+
+body input {
+  font-family: "Montserrat", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  color: black;
+  width: 100%;
+  border: 0;
+  margin: 10px 0 50px;
+  padding-bottom: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body label {
+  color: rgb(13, 15, 17);
+  font-weight: bold;
+  margin: auto;
+  padding: auto;
+}
+
+body footer {
+  margin-top: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
